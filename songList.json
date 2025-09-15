@@ -1,0 +1,342 @@
+{
+    "Achilles Come Down-Gang Of Youths": {
+        "title": "Achilles Come Down",
+        "artist": "Gang Of Youths",
+        "album": "Go Farther In Lightness",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2017",
+        "trackNum": "B4",
+        "albumCover": "albumArt/Achilles Come Down-Gang Of Youths.png",
+        "duration": 422.184,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Achilles Come Down.mp3"
+    },
+    "Machine Gun-Badflower": {
+        "title": "Machine Gun",
+        "artist": "Badflower",
+        "album": "This Is How The World Ends",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2021",
+        "trackNum": "12",
+        "albumCover": "albumArt/Machine Gun-Badflower.png",
+        "duration": 245.496,
+        "bitrate": 131.333,
+        "sampleRate": 48000,
+        "file": "music\\Badflower - Machine Gun.mp3"
+    },
+    "Big Chomper, Big Chomper-Dr Manhattan": {
+        "title": "Big Chomper, Big Chomper",
+        "artist": "Dr Manhattan",
+        "album": "Dr Manhattan",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2008",
+        "trackNum": "1",
+        "albumCover": "albumArt/Big Chomper, Big Chomper-Dr Manhattan.png",
+        "duration": 195.744,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Big Chomper, Big Chomper.mp3"
+    },
+    "When The Party\u2019s Over-Billie Eilish": {
+        "title": "When The Party\u2019s Over",
+        "artist": "Billie Eilish",
+        "album": "When We All Fall Asleep, Where Do We Go?",
+        "genre": [
+            "Electronic",
+            "Pop"
+        ],
+        "year": "2019",
+        "trackNum": "7",
+        "albumCover": "albumArt/When The Party\u2019s Over-Billie Eilish.png",
+        "duration": 193.368,
+        "bitrate": 110.132,
+        "sampleRate": 48000,
+        "file": "music\\Billie Eilish - when the party's over.mp3"
+    },
+    "Devil Town-Cavetown": {
+        "title": "Devil Town",
+        "artist": "Cavetown",
+        "album": "Cavetown",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2018",
+        "trackNum": "8",
+        "albumCover": "albumArt/Devil Town-Cavetown.png",
+        "duration": 180.0,
+        "bitrate": 131.833,
+        "sampleRate": 48000,
+        "file": "music\\cavetown - Devil Town.mp3"
+    },
+    "Placebo Effect-D4vd": {
+        "title": "Placebo Effect",
+        "artist": "D4vd",
+        "album": "Placebo Effect",
+        "genre": [
+            "Rock",
+            "Pop"
+        ],
+        "year": "2023",
+        "trackNum": "1",
+        "albumCover": "albumArt/Placebo Effect-D4vd.png",
+        "duration": 191.64,
+        "bitrate": 121.634,
+        "sampleRate": 48000,
+        "file": "music\\d4vd - Placebo Effect.mp3"
+    },
+    "Still Feel.-Half\u2022Alive": {
+        "title": "Still Feel.",
+        "artist": "Half\u2022Alive",
+        "album": "Now, Not Yet",
+        "genre": [
+            "Electronic",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "year": "2019",
+        "trackNum": "5",
+        "albumCover": "albumArt/Still Feel.-Half\u2022Alive.png",
+        "duration": 255.96,
+        "bitrate": 135.107,
+        "sampleRate": 48000,
+        "file": "music\\half\u2022alive - still feel..mp3"
+    },
+    "Fly-Kevian Kraemer": {
+        "title": "Fly",
+        "artist": "Kevian Kraemer",
+        "album": "Seventeen",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2024",
+        "trackNum": "2",
+        "albumCover": "albumArt/Fly-Kevian Kraemer.png",
+        "duration": 246.768,
+        "bitrate": 126.338,
+        "sampleRate": 48000,
+        "file": "music\\Kevian Kraemer - Fly.mp3"
+    },
+    "Leave-Wavves": {
+        "title": "Leave",
+        "artist": "Wavves",
+        "album": "The Alchemist and Oh No Present Welcome to Los Santos",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2022",
+        "trackNum": "63",
+        "albumCover": "albumArt/Leave-Wavves.png",
+        "duration": 195.864,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Leave.mp3"
+    },
+    "Monopoly Money-Moon Walker": {
+        "title": "Monopoly Money",
+        "artist": "Moon Walker",
+        "album": "Is This The World You Wanted?",
+        "genre": [
+            "Electronic",
+            "Rock"
+        ],
+        "year": "2025",
+        "trackNum": "3",
+        "albumCover": "albumArt/Monopoly Money-Moon Walker.png",
+        "duration": 182.928,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Moon Walker - Monopoly Money (Official Music Video) \uff5c New Rock Song 2025.mp3"
+    },
+    "Ghosting-Mother Mother": {
+        "title": "Ghosting",
+        "artist": "Mother Mother",
+        "album": "O My Heart",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2008",
+        "trackNum": "7",
+        "albumCover": "albumArt/Ghosting-Mother Mother.png",
+        "duration": 286.032,
+        "bitrate": 122.268,
+        "sampleRate": 48000,
+        "file": "music\\Mother Mother - Ghosting.mp3"
+    },
+    "My Woman-Biting Elbows": {
+        "title": "My Woman",
+        "artist": "Biting Elbows",
+        "album": "Shorten The Longing",
+        "genre": [
+            "Electronic",
+            "Rock"
+        ],
+        "year": "2021",
+        "trackNum": "A2",
+        "albumCover": "albumArt/My Woman-Biting Elbows.png",
+        "duration": 197.16,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\My Woman.mp3"
+    },
+    "The Loneliest-M\u00e5neskin": {
+        "title": "The Loneliest",
+        "artist": "M\u00e5neskin",
+        "album": "The Loneliest",
+        "genre": [
+            "Rock",
+            "Pop"
+        ],
+        "year": "2022",
+        "trackNum": "1",
+        "albumCover": "albumArt/The Loneliest-M\u00e5neskin.png",
+        "duration": 287.328,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\M\u00e5neskin - THE LONELIEST (Official Video).mp3"
+    },
+    "Nine Is God-Wavves": {
+        "title": "Nine Is God",
+        "artist": "Wavves",
+        "album": "Nine Is God / Demon To Lean On (Demo)",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2023",
+        "trackNum": "A",
+        "albumCover": "albumArt/Nine Is God-Wavves.png",
+        "duration": 297.336,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Nine Is God.mp3"
+    },
+    "Smells Like Teen Spirit-Nirvana": {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "genre": [
+            "Rock"
+        ],
+        "year": "1992",
+        "trackNum": "A1",
+        "albumCover": "albumArt/Smells Like Teen Spirit-Nirvana.png",
+        "duration": 278.376,
+        "bitrate": 131.282,
+        "sampleRate": 48000,
+        "file": "music\\Nirvana - Smells Like Teen Spirit.mp3"
+    },
+    "Smells Like Teen Spirit-Paul Anka": {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Paul Anka",
+        "album": "Rock Swings",
+        "genre": [
+            "Jazz",
+            "Pop"
+        ],
+        "year": "2005",
+        "trackNum": "9",
+        "albumCover": "albumArt/Smells Like Teen Spirit-Paul Anka.png",
+        "duration": 162.096,
+        "bitrate": 135.109,
+        "sampleRate": 48000,
+        "file": "music\\Paul Anka - Smells Like Teen Spirit (Jazz Cover).mp3"
+    },
+    "Follow You Into The Dark-RAKEL": {
+        "title": "Follow You Into The Dark",
+        "artist": "RAKEL",
+        "album": "Various",
+        "genre": [
+            "Soundtrack"
+        ],
+        "year": "2025",
+        "trackNum": "Unknown Track",
+        "albumCover": "albumArt/Follow You Into The Dark-RAKEL.png",
+        "duration": 219.84,
+        "bitrate": 124.43,
+        "sampleRate": 48000,
+        "file": "music\\RAKEL - Follow You Into The Dark.mp3"
+    },
+    "Memento Mori-Red Vox": {
+        "title": "Memento Mori",
+        "artist": "Red Vox",
+        "album": "Another Light",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2018",
+        "trackNum": "7",
+        "albumCover": "albumArt/Memento Mori-Red Vox.png",
+        "duration": 258.0,
+        "bitrate": 128.097,
+        "sampleRate": 48000,
+        "file": "music\\Red Vox - Memento Mori.mp3"
+    },
+    "Sunsets-Biting Elbows": {
+        "title": "Sunsets",
+        "artist": "Biting Elbows",
+        "album": "Shorten The Longing",
+        "genre": [
+            "Electronic",
+            "Rock"
+        ],
+        "year": "2021",
+        "trackNum": "A5",
+        "albumCover": "albumArt/Sunsets-Biting Elbows.png",
+        "duration": 140.328,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Sunsets.mp3"
+    },
+    "The Bachelor-Noah Floersch": {
+        "title": "The Bachelor",
+        "artist": "Noah Floersch",
+        "album": "The Bachelor",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2024",
+        "trackNum": "63",
+        "albumCover": "albumArt/The Bachelor-Noah Floersch.png",
+        "duration": 197.04,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\The Bachelor.mp3"
+    },
+    "The Killers - Mr. Brightside (Official Music Video)-TheKillersMusic": {
+        "title": "The Killers - Mr. Brightside (Official Music Video)",
+        "artist": "TheKillersMusic",
+        "album": "Unknown Album",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2009",
+        "trackNum": "63",
+        "albumCover": "albumArt/The Killers - Mr. Brightside (Official Music Video)-TheKillersMusic.png",
+        "duration": 227.52,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\The Killers - Mr. Brightside (Official Music Video).mp3"
+    },
+    "The Line-Twenty One Pilots": {
+        "title": "The Line",
+        "artist": "Twenty One Pilots",
+        "album": "The Line",
+        "genre": [
+            "Rock",
+            "Pop"
+        ],
+        "year": "2024",
+        "trackNum": "1",
+        "albumCover": "albumArt/The Line-Twenty One Pilots.png",
+        "duration": 234.912,
+        "bitrate": 105.685,
+        "sampleRate": 48000,
+        "file": "music\\Twenty One Pilots - \u201cThe Line\u201d.mp3"
+    }
+}

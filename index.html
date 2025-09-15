@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="loadData.js" defer></script>
+    <script src="pageBuilder.js"></script>
+    <script src="songPlayer.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" name="Search" id="songSearchbox" placeholder="Search" oninput="handleSearch()">
+    <div id="songList">
+
+    </div>
+    <div id="footer">
+        <div id="nowPlaying">
+            <img id="nowPlayingAlbumArt" src="" alt="Album Art">
+            <div id="nowPlayingInfo">
+                <div id="nowPlayingTitle">Title</div>
+                <div id="nowPlayingArtist">Artist</div>
+            </div>
+            <div id="playhead">
+                <code id="playheadTime">0:00</code>
+                <div id="playBar" onmousedown="setCurrentTime(event)">
+                    <div id="playBarProgress"></div>
+                    <div id="playheadKnob"></div>
+                </div>
+                <code id="playheadDuration">0:00</code>
+            </div>
+            <div id="controls">
+                <!-- <button class="control">shuffle</button> -->
+                <button class="control" onclick="pause()">
+                    <img src="pause.svg" alt="Pause" id="pauseBtnIcon">
+                </button>
+                <button class="control" onclick="audioEnded()">
+                    <img src="skip.svg" alt="Next">
+                </button>
+            </div>
+            <div id="volDiv">
+                <input type="range" name="volume" id="volume" min="0" max="100" value="50" onchange="setVolume()">
+            </div>
+        </div>
+            
+        </div>
+    </div>
+</body>
+</html>
