@@ -9,7 +9,7 @@ function drawFooter() {
     let h = fc.height
     for (var x = 0; x < w; x++) {
         for (var y = 0; y < h; y++) {
-            let n = noise.simplex3(x / 100, y / 100, Date.now() / 5000)
+            let n = noise.simplex3(x / 100, y / 100, Date.now() / 10000)
             // normalize noise to 0-1
             n = (n + 1) / 2
             let palette = currentSong["palette"] || [[255,255,255],[0,0,0]]

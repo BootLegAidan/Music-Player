@@ -36,6 +36,43 @@
             ]
         ]
     },
+    "Monster-Adventure Time": {
+        "title": "Monster",
+        "artist": "Adventure Time",
+        "album": "Adventure Time: Distant Lands",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2020",
+        "trackNum": "63",
+        "albumCover": "albumArt/Monster-Adventure Time.png",
+        "duration": 99.024,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Adventure Time\uff1a Distant Lands \u2013 Obsidian \uff5c Monster (feat. Olivia Olson & Half Shy) \uff5c WaterTower.mp3",
+        "palette": [
+            [
+                96,
+                58,
+                96
+            ],
+            [
+                219,
+                188,
+                202
+            ],
+            [
+                169,
+                200,
+                233
+            ],
+            [
+                160,
+                135,
+                204
+            ]
+        ]
+    },
     "Machine Gun-Badflower": {
         "title": "Machine Gun",
         "artist": "Badflower",
@@ -185,6 +222,43 @@
             ]
         ]
     },
+    "I Really Want To Stay At Your House-Rosa Walton & Hallie Coggins": {
+        "title": "I Really Want To Stay At Your House",
+        "artist": "Rosa Walton & Hallie Coggins",
+        "album": "Cyberpunk 2077",
+        "genre": [
+            "Electronic"
+        ],
+        "year": "2020",
+        "trackNum": "1",
+        "albumCover": "albumArt/I Really Want To Stay At Your House-Rosa Walton & Hallie Coggins.png",
+        "duration": 262.224,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Cyberpunk\uff1a Edgerunners \uff5c \u201cI Really Want to Stay At Your House\u201d by Rosa Walton \uff5c Music Video.mp3",
+        "palette": [
+            [
+                42,
+                35,
+                35
+            ],
+            [
+                224,
+                213,
+                15
+            ],
+            [
+                126,
+                77,
+                60
+            ],
+            [
+                187,
+                181,
+                170
+            ]
+        ]
+    },
     "Placebo Effect-D4vd": {
         "title": "Placebo Effect",
         "artist": "D4vd",
@@ -220,6 +294,43 @@
                 108,
                 92,
                 83
+            ]
+        ]
+    },
+    "Take Me To The Sun-D4vd": {
+        "title": "Take Me To The Sun",
+        "artist": "D4vd",
+        "album": "Take Me To The Sun",
+        "genre": [
+            "Pop"
+        ],
+        "year": "2022",
+        "trackNum": "1",
+        "albumCover": "albumArt/Take Me To The Sun-D4vd.png",
+        "duration": 167.04,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\d4vd - Take Me To The Sun (Official Visualizer) [Visuals by Weval].mp3",
+        "palette": [
+            [
+                183,
+                141,
+                116
+            ],
+            [
+                17,
+                7,
+                5
+            ],
+            [
+                122,
+                76,
+                55
+            ],
+            [
+                120,
+                68,
+                52
             ]
         ]
     },
@@ -299,6 +410,43 @@
             ]
         ]
     },
+    "Island Song-Adventure Time": {
+        "title": "Island Song",
+        "artist": "Adventure Time",
+        "album": "Adventure Time",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2018",
+        "trackNum": "63",
+        "albumCover": "albumArt/Island Song-Adventure Time.png",
+        "duration": 108.768,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Island Song (Come Along with Me) (feat. Ashley Eriksson).mp3",
+        "palette": [
+            [
+                232,
+                230,
+                235
+            ],
+            [
+                22,
+                120,
+                147
+            ],
+            [
+                244,
+                171,
+                83
+            ],
+            [
+                169,
+                44,
+                32
+            ]
+        ]
+    },
     "Fly-Kevian Kraemer": {
         "title": "Fly",
         "artist": "Kevian Kraemer",
@@ -349,7 +497,29 @@
         "duration": 195.864,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Leave.mp3"
+        "file": "music\\Leave.mp3",
+        "palette": [
+            [
+                216,
+                202,
+                164
+            ],
+            [
+                51,
+                113,
+                100
+            ],
+            [
+                212,
+                36,
+                90
+            ],
+            [
+                191,
+                185,
+                48
+            ]
+        ]
     },
     "Monopoly Money-Moon Walker": {
         "title": "Monopoly Money",
@@ -423,6 +593,80 @@
                 141,
                 132,
                 140
+            ]
+        ]
+    },
+    "Hayloft-Mother Mother": {
+        "title": "Hayloft",
+        "artist": "Mother Mother",
+        "album": "O My \u2665\ufe0f",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2008",
+        "trackNum": "8",
+        "albumCover": "albumArt/Hayloft-Mother Mother.png",
+        "duration": 203.208,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Mother Mother - Hayloft I (Official Video).mp3",
+        "palette": [
+            [
+                226,
+                193,
+                190
+            ],
+            [
+                41,
+                33,
+                31
+            ],
+            [
+                158,
+                145,
+                140
+            ],
+            [
+                147,
+                132,
+                132
+            ]
+        ]
+    },
+    "Hayloft II-Mother Mother": {
+        "title": "Hayloft II",
+        "artist": "Mother Mother",
+        "album": "Inside",
+        "genre": [
+            "Rock"
+        ],
+        "year": "2023",
+        "trackNum": "C2",
+        "albumCover": "albumArt/Hayloft II-Mother Mother.png",
+        "duration": 215.28,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Mother Mother - Hayloft II (Official Lyric Video).mp3",
+        "palette": [
+            [
+                79,
+                44,
+                44
+            ],
+            [
+                201,
+                93,
+                92
+            ],
+            [
+                141,
+                170,
+                173
+            ],
+            [
+                124,
+                148,
+                156
             ]
         ]
     },
@@ -739,22 +983,66 @@
         "duration": 197.04,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\The Bachelor.mp3"
+        "file": "music\\The Bachelor.mp3",
+        "palette": [
+            [
+                6,
+                9,
+                81
+            ],
+            [
+                226,
+                147,
+                107
+            ],
+            [
+                63,
+                91,
+                208
+            ],
+            [
+                105,
+                134,
+                142
+            ]
+        ]
     },
-    "The Killers - Mr. Brightside (Official Music Video)-TheKillersMusic": {
-        "title": "The Killers - Mr. Brightside (Official Music Video)",
-        "artist": "TheKillersMusic",
-        "album": "Unknown Album",
+    "Mr Brightside-The Killers": {
+        "title": "Mr Brightside",
+        "artist": "The Killers",
+        "album": "Hot Fuss",
         "genre": [
-            "Unknown Genre"
+            "Rock"
         ],
-        "year": "2009",
-        "trackNum": "63",
-        "albumCover": "albumArt/The Killers - Mr. Brightside (Official Music Video)-TheKillersMusic.png",
+        "year": "2005",
+        "trackNum": "2",
+        "albumCover": "albumArt/Mr Brightside-The Killers.png",
         "duration": 227.52,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\The Killers - Mr. Brightside (Official Music Video).mp3"
+        "file": "music\\The Killers - Mr. Brightside (Official Music Video).mp3",
+        "palette": [
+            [
+                179,
+                201,
+                230
+            ],
+            [
+                77,
+                120,
+                176
+            ],
+            [
+                118,
+                157,
+                205
+            ],
+            [
+                122,
+                127,
+                181
+            ]
+        ]
     },
     "The Line-Twenty One Pilots": {
         "title": "The Line",

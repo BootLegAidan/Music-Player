@@ -143,3 +143,12 @@ html, body {
     width: 20px;
     height: 20px;
 }
+
+#nowPlayingTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#playheadTime, #playheadDuration {
+    font-size: 1.6em;
+}

@@ -82,11 +82,11 @@ function pause() {
         audioEl.pause()
         isPlaying = false
         isPaused = true
-        pauseIcon.src = "play.svg"
+        pauseIcon.src = "icons/play.svg"
     } else {
         audioEl.play()
         isPlaying = true
         isPaused = false
-        pauseIcon.src = "pause.svg"
+        pauseIcon.src = "icons/pause.svg"
     }
 }
