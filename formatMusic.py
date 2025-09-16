@@ -4,6 +4,8 @@ from mutagen import File
 import glob
 import json
 import time
+from colorthief import ColorThief # type: ignore
+from io import BytesIO
 
 startTime = time.time()
 
@@ -38,6 +40,9 @@ for file in mp3Files:
     audioFile = File(file)
     if audioFile and "APIC:" in audioFile.tags:
         art = audioFile.tags["APIC:"].data
+        with BytesIO(art) as img_bytes:
+            palette = ColorThief(img_bytes).get_palette(color_count=4)
+            songList[songListId]["palette"] = palette
         with open(albumArtPath, "wb") as img:
             img.write(art)
         hasArt = True

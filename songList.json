@@ -12,7 +12,29 @@
         "duration": 422.184,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Achilles Come Down.mp3"
+        "file": "music\\Achilles Come Down.mp3",
+        "palette": [
+            [
+                190,
+                184,
+                186
+            ],
+            [
+                10,
+                9,
+                10
+            ],
+            [
+                84,
+                73,
+                76
+            ],
+            [
+                92,
+                92,
+                84
+            ]
+        ]
     },
     "Machine Gun-Badflower": {
         "title": "Machine Gun",
@@ -27,7 +49,29 @@
         "duration": 245.496,
         "bitrate": 131.333,
         "sampleRate": 48000,
-        "file": "music\\Badflower - Machine Gun.mp3"
+        "file": "music\\Badflower - Machine Gun.mp3",
+        "palette": [
+            [
+                154,
+                149,
+                146
+            ],
+            [
+                47,
+                44,
+                45
+            ],
+            [
+                81,
+                64,
+                57
+            ],
+            [
+                104,
+                80,
+                66
+            ]
+        ]
     },
     "Big Chomper, Big Chomper-Dr Manhattan": {
         "title": "Big Chomper, Big Chomper",
@@ -42,7 +86,29 @@
         "duration": 195.744,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Big Chomper, Big Chomper.mp3"
+        "file": "music\\Big Chomper, Big Chomper.mp3",
+        "palette": [
+            [
+                4,
+                11,
+                4
+            ],
+            [
+                225,
+                226,
+                225
+            ],
+            [
+                122,
+                124,
+                124
+            ],
+            [
+                124,
+                132,
+                126
+            ]
+        ]
     },
     "When The Party\u2019s Over-Billie Eilish": {
         "title": "When The Party\u2019s Over",
@@ -58,7 +124,29 @@
         "duration": 193.368,
         "bitrate": 110.132,
         "sampleRate": 48000,
-        "file": "music\\Billie Eilish - when the party's over.mp3"
+        "file": "music\\Billie Eilish - when the party's over.mp3",
+        "palette": [
+            [
+                20,
+                19,
+                12
+            ],
+            [
+                201,
+                181,
+                151
+            ],
+            [
+                131,
+                124,
+                96
+            ],
+            [
+                130,
+                116,
+                100
+            ]
+        ]
     },
     "Devil Town-Cavetown": {
         "title": "Devil Town",
@@ -73,7 +161,29 @@
         "duration": 180.0,
         "bitrate": 131.833,
         "sampleRate": 48000,
-        "file": "music\\cavetown - Devil Town.mp3"
+        "file": "music\\cavetown - Devil Town.mp3",
+        "palette": [
+            [
+                20,
+                14,
+                21
+            ],
+            [
+                205,
+                84,
+                84
+            ],
+            [
+                104,
+                149,
+                123
+            ],
+            [
+                114,
+                121,
+                124
+            ]
+        ]
     },
     "Placebo Effect-D4vd": {
         "title": "Placebo Effect",
@@ -89,7 +199,66 @@
         "duration": 191.64,
         "bitrate": 121.634,
         "sampleRate": 48000,
-        "file": "music\\d4vd - Placebo Effect.mp3"
+        "file": "music\\d4vd - Placebo Effect.mp3",
+        "palette": [
+            [
+                198,
+                187,
+                182
+            ],
+            [
+                13,
+                11,
+                10
+            ],
+            [
+                88,
+                71,
+                68
+            ],
+            [
+                108,
+                92,
+                83
+            ]
+        ]
+    },
+    "Desert-Hakushi Hasegawa": {
+        "title": "Desert",
+        "artist": "Hakushi Hasegawa",
+        "album": "Air Ni Ni",
+        "genre": [
+            "Unknown Genre"
+        ],
+        "year": "2023",
+        "trackNum": "63",
+        "albumCover": "albumArt/Desert-Hakushi Hasegawa.png",
+        "duration": 234.912,
+        "bitrate": 192.0,
+        "sampleRate": 48000,
+        "file": "music\\Desert.mp3",
+        "palette": [
+            [
+                197,
+                201,
+                201
+            ],
+            [
+                41,
+                58,
+                55
+            ],
+            [
+                136,
+                67,
+                43
+            ],
+            [
+                179,
+                147,
+                66
+            ]
+        ]
     },
     "Still Feel.-Half\u2022Alive": {
         "title": "Still Feel.",
@@ -106,7 +275,29 @@
         "duration": 255.96,
         "bitrate": 135.107,
         "sampleRate": 48000,
-        "file": "music\\half\u2022alive - still feel..mp3"
+        "file": "music\\half\u2022alive - still feel..mp3",
+        "palette": [
+            [
+                211,
+                76,
+                28
+            ],
+            [
+                68,
+                86,
+                63
+            ],
+            [
+                203,
+                197,
+                187
+            ],
+            [
+                190,
+                169,
+                125
+            ]
+        ]
     },
     "Fly-Kevian Kraemer": {
         "title": "Fly",
@@ -121,7 +312,29 @@
         "duration": 246.768,
         "bitrate": 126.338,
         "sampleRate": 48000,
-        "file": "music\\Kevian Kraemer - Fly.mp3"
+        "file": "music\\Kevian Kraemer - Fly.mp3",
+        "palette": [
+            [
+                92,
+                91,
+                86
+            ],
+            [
+                222,
+                151,
+                113
+            ],
+            [
+                170,
+                176,
+                177
+            ],
+            [
+                158,
+                163,
+                172
+            ]
+        ]
     },
     "Leave-Wavves": {
         "title": "Leave",
@@ -152,7 +365,29 @@
         "duration": 182.928,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Moon Walker - Monopoly Money (Official Music Video) \uff5c New Rock Song 2025.mp3"
+        "file": "music\\Moon Walker - Monopoly Money (Official Music Video) \uff5c New Rock Song 2025.mp3",
+        "palette": [
+            [
+                107,
+                105,
+                129
+            ],
+            [
+                211,
+                182,
+                178
+            ],
+            [
+                61,
+                39,
+                34
+            ],
+            [
+                166,
+                176,
+                193
+            ]
+        ]
     },
     "Ghosting-Mother Mother": {
         "title": "Ghosting",
@@ -167,7 +402,29 @@
         "duration": 286.032,
         "bitrate": 122.268,
         "sampleRate": 48000,
-        "file": "music\\Mother Mother - Ghosting.mp3"
+        "file": "music\\Mother Mother - Ghosting.mp3",
+        "palette": [
+            [
+                42,
+                34,
+                32
+            ],
+            [
+                230,
+                202,
+                199
+            ],
+            [
+                163,
+                149,
+                144
+            ],
+            [
+                141,
+                132,
+                140
+            ]
+        ]
     },
     "My Woman-Biting Elbows": {
         "title": "My Woman",
@@ -183,7 +440,29 @@
         "duration": 197.16,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\My Woman.mp3"
+        "file": "music\\My Woman.mp3",
+        "palette": [
+            [
+                27,
+                47,
+                51
+            ],
+            [
+                191,
+                119,
+                111
+            ],
+            [
+                99,
+                170,
+                171
+            ],
+            [
+                72,
+                144,
+                157
+            ]
+        ]
     },
     "The Loneliest-M\u00e5neskin": {
         "title": "The Loneliest",
@@ -199,7 +478,29 @@
         "duration": 287.328,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\M\u00e5neskin - THE LONELIEST (Official Video).mp3"
+        "file": "music\\M\u00e5neskin - THE LONELIEST (Official Video).mp3",
+        "palette": [
+            [
+                27,
+                36,
+                40
+            ],
+            [
+                166,
+                146,
+                120
+            ],
+            [
+                111,
+                149,
+                167
+            ],
+            [
+                127,
+                142,
+                108
+            ]
+        ]
     },
     "Nine Is God-Wavves": {
         "title": "Nine Is God",
@@ -214,7 +515,29 @@
         "duration": 297.336,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Nine Is God.mp3"
+        "file": "music\\Nine Is God.mp3",
+        "palette": [
+            [
+                204,
+                198,
+                193
+            ],
+            [
+                67,
+                60,
+                59
+            ],
+            [
+                104,
+                89,
+                84
+            ],
+            [
+                114,
+                101,
+                91
+            ]
+        ]
     },
     "Smells Like Teen Spirit-Nirvana": {
         "title": "Smells Like Teen Spirit",
@@ -229,7 +552,29 @@
         "duration": 278.376,
         "bitrate": 131.282,
         "sampleRate": 48000,
-        "file": "music\\Nirvana - Smells Like Teen Spirit.mp3"
+        "file": "music\\Nirvana - Smells Like Teen Spirit.mp3",
+        "palette": [
+            [
+                45,
+                68,
+                102
+            ],
+            [
+                78,
+                153,
+                179
+            ],
+            [
+                76,
+                142,
+                160
+            ],
+            [
+                140,
+                122,
+                104
+            ]
+        ]
     },
     "Smells Like Teen Spirit-Paul Anka": {
         "title": "Smells Like Teen Spirit",
@@ -245,7 +590,29 @@
         "duration": 162.096,
         "bitrate": 135.109,
         "sampleRate": 48000,
-        "file": "music\\Paul Anka - Smells Like Teen Spirit (Jazz Cover).mp3"
+        "file": "music\\Paul Anka - Smells Like Teen Spirit (Jazz Cover).mp3",
+        "palette": [
+            [
+                203,
+                146,
+                85
+            ],
+            [
+                14,
+                7,
+                6
+            ],
+            [
+                121,
+                121,
+                124
+            ],
+            [
+                124,
+                132,
+                128
+            ]
+        ]
     },
     "Follow You Into The Dark-RAKEL": {
         "title": "Follow You Into The Dark",
@@ -260,7 +627,29 @@
         "duration": 219.84,
         "bitrate": 124.43,
         "sampleRate": 48000,
-        "file": "music\\RAKEL - Follow You Into The Dark.mp3"
+        "file": "music\\RAKEL - Follow You Into The Dark.mp3",
+        "palette": [
+            [
+                95,
+                64,
+                66
+            ],
+            [
+                202,
+                196,
+                184
+            ],
+            [
+                205,
+                83,
+                77
+            ],
+            [
+                189,
+                172,
+                145
+            ]
+        ]
     },
     "Memento Mori-Red Vox": {
         "title": "Memento Mori",
@@ -275,7 +664,29 @@
         "duration": 258.0,
         "bitrate": 128.097,
         "sampleRate": 48000,
-        "file": "music\\Red Vox - Memento Mori.mp3"
+        "file": "music\\Red Vox - Memento Mori.mp3",
+        "palette": [
+            [
+                55,
+                69,
+                69
+            ],
+            [
+                198,
+                209,
+                189
+            ],
+            [
+                145,
+                178,
+                164
+            ],
+            [
+                132,
+                156,
+                156
+            ]
+        ]
     },
     "Sunsets-Biting Elbows": {
         "title": "Sunsets",
@@ -291,7 +702,29 @@
         "duration": 140.328,
         "bitrate": 192.0,
         "sampleRate": 48000,
-        "file": "music\\Sunsets.mp3"
+        "file": "music\\Sunsets.mp3",
+        "palette": [
+            [
+                27,
+                47,
+                51
+            ],
+            [
+                191,
+                119,
+                111
+            ],
+            [
+                99,
+                170,
+                171
+            ],
+            [
+                72,
+                144,
+                157
+            ]
+        ]
     },
     "The Bachelor-Noah Floersch": {
         "title": "The Bachelor",
@@ -337,6 +770,28 @@
         "duration": 234.912,
         "bitrate": 105.685,
         "sampleRate": 48000,
-        "file": "music\\Twenty One Pilots - \u201cThe Line\u201d.mp3"
+        "file": "music\\Twenty One Pilots - \u201cThe Line\u201d.mp3",
+        "palette": [
+            [
+                171,
+                117,
+                126
+            ],
+            [
+                52,
+                52,
+                55
+            ],
+            [
+                227,
+                229,
+                158
+            ],
+            [
+                120,
+                86,
+                53
+            ]
+        ]
     }
 }

@@ -25,7 +25,8 @@ function playsong(song) {
     document.getElementById("nowPlayingArtist").innerHTML = songs[song]["artist"]
     document.getElementById("nowPlayingAlbumArt").src = songs[song]["albumCover"]
     playerDuration.innerHTML = Math.floor(currentSong["duration"] / 60) + ":" + (Math.floor(currentSong["duration"]) % 60).toString().padStart(2, '0')
-    
+    // innerPlayBar.style.background = songs[song]["palette"] ? `linear-gradient(90deg, rgb(${songs[song]["palette"][0][0]}, ${songs[song]["palette"][0][1]}, ${songs[song]["palette"][0][2]}) 0%, rgb(${songs[song]["palette"][1][0]}, ${songs[song]["palette"][1][1]}, ${songs[song]["palette"][1][2]}) 100%)` : "white"
+
     if (isPaused) {
         pause()
     } else {
@@ -55,6 +56,7 @@ function update() {
     
     innerPlayBar.style.width = (audioEl.currentTime/currentSong["duration"]*100) + "%"
     playerTime.innerHTML = Math.floor(audioEl.currentTime / 60) + ":" + (Math.floor(audioEl.currentTime) % 60).toString().padStart(2, '0')
+    drawFooter()
     // playBar.style.border = (audioEl.currentTime/currentSong["duration"]*100) + "px solid red"
     // playBar.innerHTML = (audioEl.currentTime/currentSong["duration"]*100) + "% solid red"
 }
