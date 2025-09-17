@@ -51,6 +51,6 @@ print(jsonString)
 
 
 with open("scripts/data.js", "w") as f:
-    f.write(f"let songs = {jsonString};createList();")
+    f.write(f"let songs = {jsonString};\ncreateList();")
 
 print(f"Processed {len(mp3Files)} songs in {(time.time() - startTime):.2f} secongs")

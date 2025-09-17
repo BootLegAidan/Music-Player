@@ -20,24 +20,29 @@ function playsong(song) {
     currentSong = songs[song]
     audioEl.play()
     isPlaying = true
-    // playPauseBtn.innerHTML = "pause"
     document.getElementById("nowPlayingTitle").innerHTML = songs[song]["title"]
     document.getElementById("nowPlayingArtist").innerHTML = songs[song]["artist"]
     document.getElementById("nowPlayingAlbumArt").src = songs[song]["albumCover"]
     playerDuration.innerHTML = Math.floor(currentSong["duration"] / 60) + ":" + (Math.floor(currentSong["duration"]) % 60).toString().padStart(2, '0')
+    
+    // colored play bar, decided to replace this with a cool footer
     // innerPlayBar.style.background = songs[song]["palette"] ? `linear-gradient(90deg, rgb(${songs[song]["palette"][0][0]}, ${songs[song]["palette"][0][1]}, ${songs[song]["palette"][0][2]}) 0%, rgb(${songs[song]["palette"][1][0]}, ${songs[song]["palette"][1][1]}, ${songs[song]["palette"][1][2]}) 100%)` : "white"
 
+    // hacky way to reset the play button icon
     if (isPaused) {
         pause()
     } else {
         pause()
         pause()
     }
+
+    // change page title and favicon to show what is playing
+    document.getElementById("pageTitle").innerHTML = `${songs[song]["title"]} - ${songs[song]["artist"]}`
+    document.getElementById("pageFavicon").href = songs[song]["albumCover"]
 }
 
 function audioEnded() {
     currentSong = {}
-    // playPauseBtn.innerHTML = "play_arrow"
     document.getElementById("nowPlayingTitle").innerHTML = "Title"
     document.getElementById("nowPlayingArtist").innerHTML = "Artist"
     document.getElementById("nowPlayingAlbumArt").src = ""
@@ -57,22 +62,18 @@ function update() {
     innerPlayBar.style.width = (audioEl.currentTime/currentSong["duration"]*100) + "%"
     playerTime.innerHTML = Math.floor(audioEl.currentTime / 60) + ":" + (Math.floor(audioEl.currentTime) % 60).toString().padStart(2, '0')
     drawFooter()
-    // playBar.style.border = (audioEl.currentTime/currentSong["duration"]*100) + "px solid red"
-    // playBar.innerHTML = (audioEl.currentTime/currentSong["duration"]*100) + "% solid red"
 }
 setInterval(update, 1000 / 60)
 
 function setCurrentTime(e) {
     rect = playBar.getBoundingClientRect();
     mouseX = e.clientX
-    // console.log((mouseX - rect.left)/playBar.offsetWidth);
     
     audioEl.currentTime = ((mouseX - rect.left)/playBar.offsetWidth)*currentSong["duration"]
 }
 
 function setVolume() {
     audioEl.volume = volumeSlider.value / 100
-    // console.log("Volume set to", audioEl.volume);
 }
 setVolume()
 
