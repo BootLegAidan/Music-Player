@@ -1,3 +1,4 @@
 *.mp3
 *.png
 songList.json
+scripts/data.js

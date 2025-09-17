@@ -50,7 +50,7 @@ jsonString = json.dumps(songList, indent=4)
 print(jsonString)
 
 
-with open("songList.json", "w") as f:
-    f.write(jsonString)
+with open("scripts/data.js", "w") as f:
+    f.write(f"let songs = {jsonString};createList();")
 
 print(f"Processed {len(mp3Files)} songs in {(time.time() - startTime):.2f} secongs")

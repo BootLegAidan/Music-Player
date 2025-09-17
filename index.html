@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
-    <script src="loadData.js" defer></script>
-    <script src="pageBuilder.js" defer></script>
-    <script src="songPlayer.js" defer></script>
-    <script src="perlin.js" defer></script>
-    <script src="fancyFooter.js" defer></script>
+    <script src="scripts/pageBuilder.js" defer></script>
+    <script src="scripts/songPlayer.js" defer></script>
+    <script src="scripts/perlin.js" defer></script>
+    <script src="scripts/fancyFooter.js" defer></script>
+    <script src="scripts/data.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" name="Search" id="songSearchbox" placeholder="Search" oninput="handleSearch()">
+    <div id="header">
+        <label for="Search" onclick="(()=>{document.getElementById('songSearchbox').focus()})()" id="searchLabel">
+            <img src="icons/search.svg" alt="" id="searchIcon">
+            <input type="text" name="Search" id="songSearchbox" placeholder="Search" oninput="handleSearch()">
+        </label>
+    </div>
     <div id="songList">
 
     </div>
