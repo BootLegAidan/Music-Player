@@ -13,12 +13,15 @@ mp3Files = glob.glob('music/*.mp3', recursive=True)
 
 songList = {}
 
+index = 0
 for file in mp3Files:
     audio = EasyID3(file)
     audioFull = MP3(file)
 
     title = audio.get('title', ['Unknown Title'])[0]
     artist = audio.get('artist', ['Unknown Artist'])[0]
+
+    print(f"{('█'*int((index/len(mp3Files))*15)).ljust(15, '░')} Processing {title}...\033[K",end="\r")
 
     songListId = f"{title}-{artist}"
     albumArtPath = "albumArt/"+songListId+".png"
@@ -34,7 +37,8 @@ for file in mp3Files:
         "duration": audioFull.info.length,
         "bitrate": audioFull.info.bitrate / 1000,
         "sampleRate": audioFull.info.sample_rate,
-        "file": file
+        "file": file,
+        "index": index
     }
 
     audioFile = File(file)
@@ -46,11 +50,11 @@ for file in mp3Files:
         with open(albumArtPath, "wb") as img:
             img.write(art)
         hasArt = True
+    index+=1
 jsonString = json.dumps(songList, indent=4)
-print(jsonString)
 
 
 with open("scripts/data.js", "w") as f:
     f.write(f"let songs = {jsonString};\ncreateList();")
 
-print(f"Processed {len(mp3Files)} songs in {(time.time() - startTime):.2f} secongs")
+print(f"Processed {len(mp3Files)} songs in {(time.time() - startTime):.2f} seconds\033[K")

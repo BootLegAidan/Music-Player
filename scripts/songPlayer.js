@@ -67,6 +67,11 @@ function setCurrentTime(e) {
 
 function setVolume() {
     audioEl.volume = volumeSlider.value / 100
+
+    // update the look of the slider
+    const sliderEl = document.querySelector("#volume")
+    const progress = (volumeSlider.value / 100) * 100;
+    sliderEl.style.background = `linear-gradient(to right, #fff ${progress}%, #777 ${progress}%)`;
 }
 setVolume()
 

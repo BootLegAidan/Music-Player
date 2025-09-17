@@ -79,7 +79,7 @@ html, body {
 #nowPlaying {
 	display: grid;
 	grid-template-rows: repeat(2, 30px);
-	grid-template-columns: 60px 11em auto 150px;
+	grid-template-columns: 60px 20em auto 250px;
 	gap: 0;
 	width: 100%;
 	height: 100%;
@@ -140,7 +140,7 @@ html, body {
     width: 40px;
     height: 40px;
 }
-.control img {
+.control img, #volDiv img {
     width: 20px;
     height: 20px;
 }
@@ -196,4 +196,59 @@ html, body {
     z-index: 1;
     padding: 10px;
     box-sizing: border-box;
+}
+
+
+/* Volume Slider */
+
+
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #777;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 6px;
+  width: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+div.range {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
