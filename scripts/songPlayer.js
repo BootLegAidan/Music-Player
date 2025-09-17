@@ -28,17 +28,11 @@ function playsong(song) {
     // colored play bar, decided to replace this with a cool footer
     // innerPlayBar.style.background = songs[song]["palette"] ? `linear-gradient(90deg, rgb(${songs[song]["palette"][0][0]}, ${songs[song]["palette"][0][1]}, ${songs[song]["palette"][0][2]}) 0%, rgb(${songs[song]["palette"][1][0]}, ${songs[song]["palette"][1][1]}, ${songs[song]["palette"][1][2]}) 100%)` : "white"
 
-    // hacky way to reset the play button icon
-    if (isPaused) {
-        pause()
-    } else {
-        pause()
-        pause()
-    }
-
     // change page title and favicon to show what is playing
     document.getElementById("pageTitle").innerHTML = `${songs[song]["title"]} - ${songs[song]["artist"]}`
     document.getElementById("pageFavicon").href = songs[song]["albumCover"]
+
+    updateMediaSession()
 }
 
 function audioEnded() {
@@ -48,8 +42,7 @@ function audioEnded() {
     document.getElementById("nowPlayingAlbumArt").src = ""
     isPlaying = false
 
-    // play a random song
-    playsong(Object.keys(songs)[Math.floor(Math.random() * Object.keys(songs).length)])
+    nextSong()
 }
 
 function update() {
@@ -77,17 +70,18 @@ function setVolume() {
 }
 setVolume()
 
-function pause() {
-    pauseIcon = document.getElementById("pauseBtnIcon")
-    if (!isPaused) {
-        audioEl.pause()
-        isPlaying = false
-        isPaused = true
-        pauseIcon.src = "icons/play.svg"
-    } else {
-        audioEl.play()
-        isPlaying = true
-        isPaused = false
-        pauseIcon.src = "icons/pause.svg"
-    }
+audioEl.onpause = function() {
+    isPlaying = false
+    isPaused = true
+    document.getElementById("pauseBtnIcon").src = "icons/play.svg"
+}
+audioEl.onplay = function() {
+    isPlaying = true
+    isPaused = false
+    document.getElementById("pauseBtnIcon").src = "icons/pause.svg"
+}
+
+function nextSong() {
+    // play a random song
+    playsong(Object.keys(songs)[Math.floor(Math.random() * Object.keys(songs).length)])
 }

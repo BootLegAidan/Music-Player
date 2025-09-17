@@ -10,6 +10,7 @@
     <script src="scripts/perlin.js" defer></script>
     <script src="scripts/fancyFooter.js" defer></script>
     <script src="scripts/data.js" defer></script>
+    <script src="scripts/mediaPlayerInfo.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,10 +41,10 @@
             </div>
             <div id="controls">
                 <!-- <button class="control">shuffle</button> -->
-                <button class="control" onclick="pause()">
+                <button class="control" onclick="(()=>{!isPaused ? audioEl.pause() : audioEl.play()})()">
                     <img src="icons/pause.svg" alt="Pause" id="pauseBtnIcon">
                 </button>
-                <button class="control" onclick="audioEnded()">
+                <button class="control" onclick="nextSong()">
                     <img src="icons/skip.svg" alt="Next">
                 </button>
             </div>
