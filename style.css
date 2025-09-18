@@ -41,6 +41,13 @@ body {
 	justify-self: start;
 }
 
+.miscInfoDiv {
+    grid-area: 1 / 4 / 3 / 5;
+    align-self: center;
+    justify-self: start;
+    padding-right: 25px;
+}
+
 #footer, #footerC {
     position: fixed;
     bottom: 0;
@@ -79,7 +86,7 @@ html, body {
 #nowPlaying {
 	display: grid;
 	grid-template-rows: repeat(2, 30px);
-	grid-template-columns: 60px 20em auto 250px;
+	grid-template-columns: 60px 15em auto 250px;
 	gap: 0;
 	width: 100%;
 	height: 100%;
@@ -104,6 +111,8 @@ html, body {
     grid-area: 2/3/3/4;
 	justify-self: center;   
 	align-self: center;
+    overflow: visible;
+    white-space: nowrap;
 }
 #playBar {
     width: 65vw;
@@ -128,6 +137,7 @@ html, body {
     justify-self: center;
     align-self: center;
     text-align: left;
+    padding-right: 25px;
 }
 #volume {
     width: 100px;

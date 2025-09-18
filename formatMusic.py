@@ -11,7 +11,7 @@ startTime = time.time()
 
 mp3Files = glob.glob('music/*.mp3', recursive=True)
 
-songList = {}
+songList = []
 
 index = 0
 for file in mp3Files:
@@ -26,7 +26,7 @@ for file in mp3Files:
     songListId = f"{title}-{artist}"
     albumArtPath = "albumArt/"+songListId+".png"
 
-    songList[songListId] = {
+    songData = {
         "title": title,
         "artist": artist,
         "album": audio.get('album', ['Unknown Album'])[0],
@@ -46,10 +46,11 @@ for file in mp3Files:
         art = audioFile.tags["APIC:"].data
         with BytesIO(art) as img_bytes:
             palette = ColorThief(img_bytes).get_palette(color_count=4)
-            songList[songListId]["palette"] = palette
+            songData["palette"] = palette
         with open(albumArtPath, "wb") as img:
             img.write(art)
         hasArt = True
+    songList.append(songData)
     index+=1
 jsonString = json.dumps(songList, indent=4)
 

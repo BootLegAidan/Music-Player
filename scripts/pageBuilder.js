@@ -1,4 +1,4 @@
-function createList(filter="") {
+function createList(filter="", miscInfo="duration") {
     songListEl = document.getElementById("songList")
     
     
@@ -43,6 +43,21 @@ function createList(filter="") {
             album.innerHTML = data["album"]
             albumDiv.appendChild(album)
             listItem.appendChild(albumDiv)
+
+            miscInfoDiv = document.createElement("div")
+            miscInfoDiv.classList.add("miscInfoDiv")
+            duration = document.createElement("p")
+            switch(miscInfo) {
+                case "year":
+                    duration.innerHTML = data["year"]
+                    break;
+                case "duration":
+                default:
+                    duration.innerHTML = Math.floor(data["duration"] / 60) + ":" + (Math.floor(data["duration"]) % 60).toString().padStart(2, '0')
+                    break;
+            }
+            miscInfoDiv.appendChild(duration)
+            listItem.appendChild(miscInfoDiv)
 
             songListEl.appendChild(listItem)
         }
