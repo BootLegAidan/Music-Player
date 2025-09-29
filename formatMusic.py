@@ -56,6 +56,6 @@ jsonString = json.dumps(songList, indent=4)
 
 
 with open("scripts/data.js", "w") as f:
-    f.write(f"let songs = {jsonString};\ncreateList();")
+    f.write(f"let songs = {jsonString};\nsortSongs();")
 
 print(f"Processed {len(mp3Files)} songs in {(time.time() - startTime):.2f} seconds\033[K")

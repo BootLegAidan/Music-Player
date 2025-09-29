@@ -10,7 +10,6 @@ let playerTime = document.getElementById("playheadTime")
 let playerDuration = document.getElementById("playheadDuration")
 
 function playsong(song) {
-    console.log(songs[song]["title"], currentSong["title"], isPlaying);
     if (songs[song]["title"] == currentSong["title"] && songs[song]["artist"] == currentSong["artist"] && isPlaying) {
         return
     }

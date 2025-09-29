@@ -26,6 +26,5 @@ function sortSongs(method="title",reverse=false) {
 function handleSort() {
     sortSettings = document.getElementById("sortSelect").value.split("-")
     sortSongs(sortSettings[0], (sortSettings[1] == "desc"))
-    console.log(sortSettings == "desc");
     
 }

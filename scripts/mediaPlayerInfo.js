@@ -2,7 +2,6 @@ function updateMediaSession() {
     if ("mediaSession" in navigator) {
         
         albumCoverURL = new URL(currentSong["albumCover"], window.location.href).href
-        console.log(albumCoverURL);
         
         navigator.mediaSession.metadata = new MediaMetadata({
             title: currentSong["title"] || "Unknown Title",
